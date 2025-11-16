@@ -21,3 +21,5 @@ dependencyResolutionManagement {
 
 rootProject.name = "NavToDo"
 include(":app")
+include(":core")
+include(":core:domain")
