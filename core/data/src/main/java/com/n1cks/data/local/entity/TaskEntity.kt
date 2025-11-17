@@ -1,7 +1,12 @@
-package com.n1cks.domain.model
+package com.n1cks.data.local.entity
 
-data class TaskModel(
-    val id: Long = 0,
+import androidx.room.Entity
+import androidx.room.PrimaryKey
+import com.n1cks.domain.model.TaskPriority
+
+@Entity
+data class TaskEntity(
+    @PrimaryKey(autoGenerate = true) val id: Long? = null,
     val title: String,
     val desc: String? = null,
     val priority: TaskPriority = TaskPriority.MEDIUM,
