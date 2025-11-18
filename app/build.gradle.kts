@@ -64,6 +64,12 @@ dependencies {
     //Coroutines
     implementation(libs.coroutines.android)
 
+    //Domain
+    implementation(project(":core:domain"))
+
+    //Data
+    implementation(project(":core:data"))
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
