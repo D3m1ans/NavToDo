@@ -1,4 +1,4 @@
-package com.n1cks.navtodo.di
+package com.n1cks.di
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp

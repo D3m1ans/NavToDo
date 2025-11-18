@@ -1,4 +1,4 @@
-package com.n1cks.navtodo.di
+package com.n1cks.di
 
 import android.content.Context
 import androidx.room.Room
