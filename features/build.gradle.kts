@@ -52,13 +52,21 @@ dependencies {
     //Decompose
     implementation(libs.decompose)
     implementation(libs.decompose.extensions)
+    implementation(libs.decompose.extensions.jetpack)
     implementation(libs.serialization.json)
+
+    //Coroutines
+    implementation(libs.coroutines.android)
+    implementation(libs.coroutines.core)
 
     //DI
     implementation(project(":core:di"))
 
     //Navigation
     implementation(project(":core:navigation"))
+
+    //Domain
+    implementation(project(":core:domain"))
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

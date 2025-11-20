@@ -12,6 +12,7 @@ composeBom = "2025.11.00"
 #Decompose
 decomposeVer = "3.4.0"
 serializationJson = "1.9.0"
+extensionsVer = "2.5.0"
 
 #Room
 roomVer = "2.8.3"
@@ -25,7 +26,6 @@ corVer = "1.3.9"
 #Plugins
 serializationPlugin = "2.2.21"
 kspVer = "2.2.10-2.0.2"
-
 
 appcompat = "1.6.1"
 material = "1.10.0"
@@ -49,6 +49,7 @@ androidx-compose-material3 = { group = "androidx.compose.material3", name = "mat
 #Decompose
 decompose = { group = "com.arkivanov.decompose", name = "decompose", version.ref = "decomposeVer" }
 decompose-extensions = { group = "com.arkivanov.decompose", name = "extensions-compose", version.ref = "decomposeVer" }
+decompose-extensions-jetpack = { group = "com.arkivanov.decompose", name = "extensions-compose-jetpack", version.ref = "decomposeVer" }
 serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "serializationJson" }
 
 #Room
@@ -62,6 +63,7 @@ hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", v
 
 #Coroutines
 coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "corVer" }
+coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "corVer" }
 
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
 material = { group = "com.google.android.material", name = "material", version.ref = "material" }
